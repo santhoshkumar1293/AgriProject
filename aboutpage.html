@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGROVision</title>
+     <!-- tailwindcss cdn link -->
+     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+     <!-- css page link -->
+    <link rel="stylesheet" href="index.css">
+    <!-- fornt link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+   <!--  nav bar -->
+   <nav style="background-image: url(images/navimg.jpg); background-size: cover opacity: 0;;"
+   class="bg-orange p-3 flex items-center justify-between top-0 z-10">
+      <h1 class="text-2xl font-semibold">AGROVision</h1>
+
+      <!-- menu bar -->
+      <svg  id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 md:hidden">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        
+
+
+      <ul class="flex gap-12 text-gray-600 hidden md:flex">
+          <li>
+              <a class="hover:underline hover:text-black" href="index.html">Home</a>
+          </li>
+          <li>
+              <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
+          </li>
+          <li>
+              <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+
+          </li>
+          <li>
+              <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
+              
+          </li>
+          
+      </ul>
+
+      <h1 class="hover:underline hover:text-black text-gray-600">Login</h1>
+
+   </nav>
+
+   <!-- side navbar -->
+
+   <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
+      <div class="text-right p-5">
+          <p id="close-nav" class="inline cursor-pointer">X</p>
+      </div>
+      <ul class="flex flex-col items-center gap-10 text-gray-600">
+
+          <li>
+              <a class="hover:underline hover:text-black" href="index.html">Home</a>
+          </li>
+          <li>
+              <a class="hover:underline  hover:text-black" href="productpage.html">Service</a>
+          </li>
+          <li>
+              <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+
+          </li>
+          <li>
+              <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
+              
+          </li>
+          
+      </ul>
+
+      <!-- about us -->
+
+   </section>
+   <section>
+   <div class="Aboutbox">
+    <div class="Aboutwords">
+        <h1>About US !</h1>
+        <p class="ml-2"> 
+            
+            At AGROVision, we are committed to revolutionizing agriculture through technology and innovation. Our mission is to empower farmers with the tools and knowledge needed to make informed decisions, increase productivity.  
+            <br>
+            We provide a comprehensive platform that offers:
+            <br>  
+            ✅ Crop Recommendations: Tailored suggestions based on your location and soil conditions. 
+            <br> 
+            💧 Fertilizer Guidance: Customized fertilizer plans to optimize crop growth. 
+            <br> 
+            📸 Disease Detection: AI-powered analysis of crop images to identify diseases and offer solutions.
+            <br>  
+            🌱 Agricultural Schemes: Up-to-date information on government schemes and benefits to support farmers.
+            <br>
+            
+            With our easy-to-use platform, we aim to simplify farming, boost yields, and contribute to a more sustainable agricultural future. Together, let's cultivate success!  
+            </p>
+    </div>
+    <div class="Aboutimg">
+        <img src="./images/about.png">
+    </div>
+     
+      </section>
+ 
+
+    <!-- footer -->
+    <section class=footer>
+        <h1 class="text-2xl font-bold"> AGROVision</h1>
+        <p></p>
+        <p>agrovision2025@gmail.com</p>
+
+     </section>
+
+     <script src="about.js"></script>
+</body>
+</html>
