@@ -48,7 +48,7 @@
 
       <!-- side navbar -->
 
-      <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
+      <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
         <div class="text-right p-5">
             <p id="close-nav" class="inline cursor-pointer">X</p>
         </div>
@@ -58,13 +58,15 @@
                 <a class="hover:underline hover:text-black" href="index.html">Home</a>
             </li>
             <li>
-                <a class="hover:underline  hover:text-black" href="servicepage.html">Product</a>
+                <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
             </li>
             <li>
                 <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+
             </li>
             <li>
                 <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
+                
             </li>
             
         </ul>
@@ -73,32 +75,34 @@
 
     <section class="text-center">
         <h1 class="font-bold text-3xl mt-7">Our Services</h1>
-        <input id="search" type="text" placeholder="Search For a Product.."  class="border border-black mt-3 p-2"style="width: 80%;">
+        <input id="search" type="text" placeholder="Search For a Services..."  class="border border-black mt-3 p-2"style="width: 80%;">
     </section> 
 
-    <!-- services-->
-    <section class="text-center">
+     <!-- services -->
+
+     <section class="text-center">
+        <h1 class="font-semibold text-3xl mt-10 text-green-900">Services</h1>
         <p class="mt-6">Growing Success Through Our Agricultural Services</p>
         <div class="container">
             <div class="image1">
-                <img src="./images/croprecommendation.jpg" class="img1">
-                <h3>Crop Suggestion</h3>
-                <button class="orderbutton">View</button>
+                <a href="cropsuggestion.html"><img src="./images/croprecommendation.jpg" class="img1"></a>
+                <h3 class="mt-3 font-semibold">Crop Suggestion</h3>
+                <a href="cropsuggestion.html"><button id="orderbutton">View</button></a>
             </div>
             <div class="image2">
-                <img src="./images/plantdiseasedetections.jpg" class="img2">
-                <h3 >Plant Disease Detection</h3>               
-                <button class="orderbutton">View</button>
+                <a href="plantdisease.html"><img src="./images/plantdiseasedetections.jpg" class="img2"></a>
+                <h3 class="mt-3 font-semibold">Plant Disease Detection</h3>               
+                <a href="plantdisease.html"><button id="orderbutton">View</button></a>
             </div>
             <div class="image3">
-                <img src="./images/fertilizer suggestion.jpg" class="img3">
-                <h3>Fertilizer Suggestion</h3>
-                <button class="orderbutton">View</button>
+                <a href="fertilizersuggestion.html"><img src="./images/fertilizer suggestion.jpg" class="img3"></a>
+                <h3 class="mt-3 font-semibold">Fertilizer Suggestion</h3>
+                <a href="fertilizersuggestion.html"><button id="orderbutton">View</button></a>
             </div>
             <div class="image4">
-                <img src="./images/schemesimg.jpeg" class="img4">
-                <h3>Government Schemes</h3>
-                <button class="orderbutton">View</button>
+                <a href="govscheme.html"><img src="./images/schemesimg.jpeg" class="img4"></a>
+                <h3 class="mt-3 font-semibold">Government Schemes</h3>
+                <a href="govscheme.html"><button id="orderbutton">View</button></a>
             </div>
     
         </div>
@@ -114,6 +118,6 @@
 
      </section>
 
-     <script src="product.js"></script>
+     <script src="service.js"></script>
 </body>
 </html>
