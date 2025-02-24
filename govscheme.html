@@ -16,64 +16,207 @@
 </head>
 <body>
     <!--  nav bar -->
-     <nav style="background-image: url(images/navimg.jpg); background-size: cover opacity: 0;;"
-     class="bg-orange p-3 flex items-center justify-between top-0 z-10">
-        <h1 class="text-2xl font-semibold">AGROVision</h1>
+    <nav id="navdisease"
+    class="bg-orange p-3 flex items-center justify-between top-0 z-10">
+       <h1 class="text-2xl font-semibold text-white">AGROVision</h1>
 
-        <!-- menu bar -->
-        <svg  id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 md:hidden">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          
+       <!-- menu bar -->
+       <svg  id="menuicondisease" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 md:hidden">
+           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+         </svg>
+         
 
 
-        <ul class="flex gap-12 text-gray-600 hidden md:flex">
-            <li>
-                <a class="hover:underline hover:text-black" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+       <ul class="flex gap-12 text-white hidden md:flex">
+           <li>
+               <a class="hover:underline hover:text-green-600" href="index.html">Home</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-green-600" href="servicepage.html">Service</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-green-600" href="aboutpage.html">About</a>
 
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
-                
-            </li>
-            
-        </ul>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-green-600" href="aboutpage.html">Conduct</a>
+               
+           </li>
+           
+       </ul>
 
-        <h1 class="hover:underline hover:text-black text-gray-600">Login</h1>
+       <h1 class="hover:underline hover:text-green-600 text-white cursor-pointer">Login</h1>
 
-     </nav>
+    </nav>
 
-     <!-- side navbar -->
+    <!-- side navbar -->
 
-     <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
-        <div class="text-right p-5">
-            <p id="close-nav" class="inline cursor-pointer">X</p>
+    <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
+       <div class="text-right p-5">
+           <p id="close-nav" class="inline cursor-pointer">X</p>
+       </div>
+       <ul class="flex flex-col items-center gap-10 text-gray-600">
+
+           <li>
+               <a class="hover:underline hover:text-black" href="index.html">Home</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
+               
+           </li>
+           
+       </ul>
+
+   
+
+    </section>
+
+     <!-- header section  -->
+    
+   <section style="background-image: url(images/schemeheadimg.jpeg); ; height: 670px;  background-size: cover;" 
+   class="p-4 md:p-10 flex justify-center" >
+   </section>
+     <div class="table-box">
+        <h2 class="ml-40 text-2xl font-semibold ">Major Schemes</h2>
+        <div class="table-row table-head">
+            <div class="table-cell first-cell">
+                <p>Schemes</p>
+            </div>
+            <div class="table-cell">
+                <p>Publish Date</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>Details</p>
+            </div> 
         </div>
-        <ul class="flex flex-col items-center gap-10 text-gray-600">
 
-            <li>
-                <a class="hover:underline hover:text-black" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
 
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
-                
-            </li>
-            
-        </ul>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)</p>
+            </div>
+            <div class="table-cell">
+                <p>28-12-2023</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://pmkisan.gov.in/" class="hover:underline hover:text-black">Click To Register</a>
+            </div>   
+        </div>
 
-     </section>
 
-     <script src="govscheme.js"></script>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Paramparagat krishi vikas yojana</p>
+            </div>
+            <div class="table-cell">
+                <p>April, 2015</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://dmsouthwest.delhi.gov.in/scheme/paramparagat-krishi-vikas-yojana/" class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Soil health Card scheme</p>
+            </div>
+            <div class="table-cell">
+                <p>19 February 2015</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://www.india.gov.in/spotlight/soil-health-card#tab=tab-1" class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Pradhan Mantri Fasal Bima Yojana</p>
+            </div>
+            <div class="table-cell">
+                <p>13 january 2016</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://pmfby.gov.in/" class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Livestock Insurance Scheme</p>
+            </div>
+            <div class="table-cell">
+                <p>year 2014-15</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://schemes.vikaspedia.in/viewcontent/schemesall/schemes-for-entrepreneurs/livestock-insurance-scheme?lgn=en" class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Credit facility for farmers</p>
+            </div>
+            <div class="table-cell">
+                <p>Introduced in 1998</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://www.rbi.org.in/commonman/english/scripts/Notification.aspx?Id=2311#:~:text=The%20Kisan%20Credit%20Card%20(KCC)%20scheme%20was%20introduced%20in%201998,cash%20for%20their%20production%20needs." class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Primary Agricultural Credit Societies (PACS)</p>
+            </div>
+            <div class="table-cell">
+                <p>February 2023</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://www.cooperation.gov.in/about-primary-agriculture-cooperative-credit-societies-pacs" class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Financial assistance to organic farmers</p>
+            </div>
+            <div class="table-cell">
+                <p>launched in 2015-16</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="https://agriculture.vikaspedia.in/viewcontent/agriculture/national-schemes-for-farmers/schemes-for-organic-farming?lgn=en" class="hover:underline hover:text-black">Click To Register</a>
+            </div>
+        </div>
+
+        <div class="table-row table-head">
+            <div class="table-cell first-cell">
+                <p></p>
+            </div>
+            <div class="table-cell">
+                <p></p>
+            </div>
+            <div class="table-cell last-cell">
+                <p></p>
+            </div> 
+        </div>
+</div>  
+<!-- footer -->
+<section class=footergov>
+    <h1 class="text-2xl font-bold"> AGROVision</h1>
+    <p></p>
+    <p>agrovision2025@gmail.com</p>
+
+ </section>
+
+     <script src="govscheme.js"></script> 
+</body>
+</html>
+

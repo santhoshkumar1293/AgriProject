@@ -16,64 +16,148 @@
 </head>
 <body>
     <!--  nav bar -->
-     <nav style="background-image: url(images/navimg.jpg); background-size: cover opacity: 0;;"
-     class="bg-orange p-3 flex items-center justify-between top-0 z-10">
-        <h1 class="text-2xl font-semibold">AGROVision</h1>
+    <nav id="navfert"
+    class="bg-orange p-3 flex items-center justify-between top-0 z-10">
+       <h1 class="text-2xl font-semibold text-white">AGROVision</h1>
 
-        <!-- menu bar -->
-        <svg  id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 md:hidden">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          
+       <!-- menu bar -->
+       <svg  id="menuicondisease" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 md:hidden">
+           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+         </svg>
+         
 
 
-        <ul class="flex gap-12 text-gray-600 hidden md:flex">
-            <li>
-                <a class="hover:underline hover:text-black" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+       <ul class="flex gap-12 text-white hidden md:flex">
+           <li>
+               <a class="hover:underline hover:text-green-600" href="index.html">Home</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-green-600" href="servicepage.html">Service</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-green-600" href="aboutpage.html">About</a>
 
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
-                
-            </li>
-            
-        </ul>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-green-600" href="aboutpage.html">Conduct</a>
+               
+           </li>
+           
+       </ul>
 
-        <h1 class="hover:underline hover:text-black text-gray-600">Login</h1>
+       <h1 class="hover:underline hover:text-green-600 text-white cursor-pointer">Login</h1>
 
-     </nav>
+    </nav>
 
-     <!-- side navbar -->
+    <!-- side navbar -->
 
-     <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
-        <div class="text-right p-5">
-            <p id="close-nav" class="inline cursor-pointer">X</p>
-        </div>
-        <ul class="flex flex-col items-center gap-10 text-gray-600">
+    <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
+       <div class="text-right p-5">
+           <p id="close-nav" class="inline cursor-pointer">X</p>
+       </div>
+       <ul class="flex flex-col items-center gap-10 text-gray-600">
 
-            <li>
-                <a class="hover:underline hover:text-black" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+           <li>
+               <a class="hover:underline hover:text-black" href="index.html">Home</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
 
-            </li>
-            <li>
-                <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
-                
-            </li>
-            
-        </ul>
+           </li>
+           <li>
+               <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
+               
+           </li>
+           
+       </ul>
 
-     </section>
+   
 
-     <script src="about.js"></script>
+    </section>
+
+    <!-- header section  -->
+    
+   <section style="background-image: url(images/fertilizerheadimg.jpg); ; height: 680px;  background-size: cover;" 
+   class="p-4 md:p-10 flex justify-center" >
+   </section>
+
+    <!-- KNOW More     -->
+
+    <section class=>
+       <h1 class="font-semibold text-xl mt-10 ml-60 text-green-700" id="diseaseheader">LEARN</h1>
+       <p class=" ml-60 text-4xl font-semibold text-gray-500" id="diseasesubhead">KNOW TO MORE</p>
+       <div class="containercrop">
+           <div class="flex flex-wrap mt-5">
+               <div class="flex mt-5" id="blastimg"><a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html"><img src="./images/blast_1.jpg" class="imgcrop1"></a>
+                   <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html"><img src="./images/blast_2.jpg" class="imgfert1"></a>
+               </div>
+               <div class="ml-16">
+               <h3 class="mt-3 font-semibold text-2xl text-green-700">Blast Disease</h3>
+               <h4 class=" mt-2 font-semibold text-sm text-red-400" >Causes</h4>
+               <p class=" flex flex-wrap w-96 mt-2 flex-none">➢ All aboveground parts of the rice plant (leaves, leaf collar, culm, culm nodes, neck, and panicle) are attacked by the fungus
+                <br>➢ Initial symptoms are white to gray-green lesions or spots with brown borders</p>
+               <h4 class=" mt-2 font-semibold text-sm text-green-400" >Solution</h4>
+               <p class=" flex flex-wrap w-96 mt-2 flex-none">✅ Seed treatment at 2.0 g/kg seed with Captan or Carbendazim or Thiram or Tricyclazole</p>
+               <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblast.html"><button id="orderbuttoncrop">View More</button></a>
+               </div>
+           </div>
+           <div class="flex flex-wrap mt-10">
+               <div class="ml-16">
+                   <h3 class="mt-3 font-semibold text-2xl text-green-700">Bacterial Leaf</h3>
+                   <h4 class=" mt-2 font-semibold text-sm text-red-400" >Causes</h4>
+                   <p class=" flex flex-wrap w-96 mt-2 flex-none">➢ Water-soaked to yellowish stripes on leaf blades or starting at leaf tips with a wavy margin
+                    <br>➢ Leaves with undulated yellowish white or golden yellow marginal necrosis, drying of leaves back from tip and curling, leaving mid rib intact are the major symptoms.
+                   <br>➢ Loss in grain yield may be up to 60%</p>
+                   <h4 class=" mt-2 font-semibold text-sm text-green-400" >Solution</h4>
+                   <p class=" flex flex-wrap w-96 mt-2 flex-none">✅ Seed treatment with bleaching powder (100g/l) and zinc sulfate (2%) reduce bacterial blight.
+                       <br>✅ Spray fresh cowdung extract for the control of bacterial blight. Dissolve 20 g cowdung in one litre of water; allow to settle and sieve.
+                   </p>
+                   <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblb.html"><button id="orderbuttoncrop">View More</button></a>
+                   </div>
+               <a href="http://www.agritech.tnau.ac.in/expert_system/paddy/cpdisblb.html"><img src="./images/bacterial leaf.webp" class="imgfert2"></a>
+              
+           </div>
+           <div class="flex flex-wrap mt-10">
+               <a href="http://agritech.tnau.ac.in/expert_system/paddy/cpdissheathblight.html"><img src="./images/SheathBlight.jpg" class="imgfert3"></a>
+               <div class="ml-16">
+                   <h3 class="mt-3 font-semibold text-2xl text-green-700">Sheath Blight</h3>
+                   <h4 class=" mt-2 font-semibold text-sm text-red-400" >Causes</h4>
+                   <p class=" flex flex-wrap w-96 mt-2 flex-none">➢ The fungus affects the crop from tillering to heading stage.<br>➢ Sheath blight caused by necrotrophic fungus Rhizoctonia solani Kühn is one of the most serious diseases of rice.
+                    <br>➢ A yield loss of 25% was reported if the flag leaves are infected. </p>
+                   <h4 class=" mt-2 font-semibold text-sm text-green-400" >Solution</h4>
+                   <p class=" flex flex-wrap w-96 mt-2 flex-none">✅ Seed treatment with Pseudomonas fluorescens @ of 10g/kg of seed followed by seedling dip @ of 2.5 kg or products/ha dissolved in 100 litres and dipping for 30 minutes.</p>
+                   <a href="http://agritech.tnau.ac.in/expert_system/paddy/cpdissheathblight.html"><button id="orderbuttoncrop">View More</button></a>
+                   </div>
+           </div>
+           <div class="flex flex-wrap mt-10">
+               <div class="ml-16">
+                   <h3 class="mt-3 font-semibold text-2xl text-green-700">False smut / Lakshmi disease</h3>
+                   <h4 class=" mt-2 font-semibold text-sm text-red-400" >Causes</h4>
+                   <p class=" flex flex-wrap w-96 mt-2 flex-none">➢ The disease can occur in areas with high relative humidity (>90%) and temperature ranging from 25−35 ºC
+                    <br>➢ Rain, high humidity, and soils with high nitrogen content also favors disease development</p>
+                   <h4 class=" mt-2 font-semibold text-sm text-green-400" >Solution</h4>
+                   <p class=" flex flex-wrap w-96 mt-2 flex-none">✅ Destruction of straw and stubble from infected plants.
+                    <br>✅ Avoid field activities when the plants are wet.</p>
+                   <a href="https://agritech.tnau.ac.in/crop_protection/rice_diseases/rice_7.html"><button id="orderbuttoncrop">View More</button></a>
+                   </div>
+               <a href="https://agritech.tnau.ac.in/crop_protection/rice_diseases/rice_7.html"><img src="./images/False smut.png" class="imgfert4"></a>
+               
+           </div>
+   
+       </div>
+       </div>
+
+    </section> 
+
+    <!-- footer -->
+    <section class=footerfert>
+       <h1 class="text-2xl font-bold"> AGROVision</h1>
+       <p></p>
+       <p>agrovision2025@gmail.com</p>
+
+    </section>
+
+     <script src="fertilizersuggestion.js"></script>
