@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGROVision</title>
+     <!-- tailwindcss cdn link -->
+     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+     <!-- css page link -->
+    <link rel="stylesheet" href="index.css">
+    <!-- fornt link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+
+<body class="bg-gray-100 font-sans">
+
+
+        <!--  nav bar -->
+        <nav id="navdisease"
+        class="bg-orange p-3 flex items-center justify-between top-0 z-10">
+           <h1 class="text-2xl font-semibold text-white">AGROVision</h1>
+    
+           <!-- menu bar -->
+           <svg  id="menuicondisease" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 md:hidden">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+             </svg>
+             
+    
+    
+           <ul class="flex gap-12 text-white hidden md:flex">
+               <li>
+                   <a class="hover:underline hover:text-green-600" href="index.html">Home</a>
+               </li>
+               <li>
+                   <a class="hover:underline  hover:text-green-600" href="servicepage.html">Service</a>
+               </li>
+               <li>
+                   <a class="hover:underline  hover:text-green-600" href="aboutpage.html">About</a>
+    
+               </li>
+               
+               
+           </ul>
+    
+                   <h1 class="hover:underline hover:text-black cursor-pointer text-gray-600" ><a href="login.html">Login</a></h1>
+    
+        </nav>
+    
+        <!-- side navbar -->
+    
+        <section id="sidenav" class="bg-gray-50 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh; right: -50%;">
+           <div class="text-right p-5">
+               <p id="close-nav" class="inline cursor-pointer">X</p>
+           </div>
+           <ul class="flex flex-col items-center gap-10 text-gray-600">
+    
+               <li>
+                   <a class="hover:underline hover:text-black" href="index.html">Home</a>
+               </li>
+               <li>
+                   <a class="hover:underline  hover:text-black" href="servicepage.html">Service</a>
+               </li>
+               <li>
+                   <a class="hover:underline  hover:text-black" href="aboutpage.html">About</a>
+    
+               </li>
+               <li>
+                   <a class="hover:underline  hover:text-black" href="aboutpage.html">Conduct</a>
+                   
+               </li>
+               
+           </ul>
+    
+       
+    
+        </section>
+    
+
+
+
+
+
+  <div class="max-w-2xl mx-auto mt-10 p-6 bg-white rounded-xl shadow-md">
+    <h1 class="text-3xl font-bold text-green-600 mb-4">Contact Us</h1>
+    <p class="text-gray-600 mb-6">We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
+
+    <form class="space-y-4">
+      <div>
+        <label class="block text-gray-700">Name</label>
+        <input type="text" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+
+      <div>
+        <label class="block text-gray-700">Email</label>
+        <input type="email" placeholder="you@example.com" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+
+      <div>
+        <label class="block text-gray-700">Message</label>
+        <textarea placeholder="Write your message..." rows="4" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+      </div>
+
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition">Send Message</button>
+    </form>
+  </div>
+
+</body>
+</html>

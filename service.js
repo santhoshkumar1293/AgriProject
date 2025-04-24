@@ -16,9 +16,9 @@ closenav.addEventListener("click",function(){
 
 
 
-//product search
+//service search
 
-var productcontainer = document.getElementById("productcontainer")
+var productcontainer = document.getElementById("container")
 var search=document.getElementById("search")
 var productlist = productcontainer.querySelectorAll("div")//taking all div tags
 
@@ -27,7 +27,7 @@ search.addEventListener("keyup",function(){
 
     for(count=0;count<productlist.length;count=count+1)
     {
-        var productname=productlist[count].querySelector("h1").textContent//p[count]--.one div slect aagirum .athukula irukura text content
+        var productname=productlist[count].querySelector("h3").textContent//p[count]--.one div slect aagirum .athukula irukura text content
 
         if(productname.toUpperCase().indexOf(enteredvalue)<0)
         {

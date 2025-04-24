@@ -1,7 +1,7 @@
 var sidenav=document.getElementById("sidenav")
 
 
-var menuicon=document.getElementById("menuicon")
+var menuicon=document.getElementById("menuicondisease")
 menuicon.addEventListener("click", function(){
     sidenav.style.right=0
 })
